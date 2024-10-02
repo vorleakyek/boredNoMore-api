@@ -1,0 +1,399 @@
+/* General */
+body {
+  color: #0e5858;
+  background-color: #fdf5e6;
+  position: relative;
+}
+
+p {
+  margin: 0.3rem;
+}
+
+.btn-general {
+  display: flex;
+  justify-content: center;
+  margin: 0.6rem auto;
+  background-color: #48bcd1;
+  color: white;
+  border-radius: 1.56rem;
+  padding: 0.3rem 1.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+th {
+  padding: 0.6rem 1rem 0.6rem 0.2rem;
+  text-align: justify;
+}
+
+.bg-1 {
+  background-color: #48bcd1;
+}
+
+.bg-2 {
+  background-color: #ddf9fe;
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem 0.3rem 0.3rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* Page header */
+.heading {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.not-found {
+  text-align: center;
+  vertical-align: center;
+}
+
+.not-found-padding {
+  padding: 5rem 0;
+}
+
+/* Top Activities Section */
+td,
+.num-column,
+.num-cell {
+  padding-left: 0.3rem;
+}
+
+.table-header {
+  background-color: #48bcd1;
+  color: white;
+  text-align: center;
+  border-left: 0.06rem #48bcd1 solid;
+  position: sticky;
+  top: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 0.6rem;
+}
+
+.height {
+  height: 18rem;
+}
+
+.type-cell {
+  text-transform: capitalize;
+}
+
+.participant-cell {
+  padding-left: 0.6rem;
+}
+
+.activity-column-padding {
+  padding-right: 6rem;
+}
+
+.activity-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table-body {
+  background-color: white;
+}
+
+.border {
+  border: 0.06rem #48bcd1 solid;
+  border-top: none;
+}
+
+.notes {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.87rem;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Random Generator Styles */
+.random-generator {
+  background-color: #baf4ff;
+}
+
+.random-activity-output {
+  width: 95%;
+  background-color: #f0f0f0;
+  margin: 0.2rem auto 0.6rem;
+  font-size: 0.875rem;
+  padding: 0.6rem;
+}
+
+.option-wrapper {
+  margin: 0 0.8rem;
+  padding: 0.5rem;
+  background-color: #ddf9fe;
+}
+
+.price-input-wrapper,
+.accessibility-input-wrapper,
+.participant-input-wrapper {
+  margin-left: 1.25rem;
+  padding: 0.125rem 0;
+}
+
+/* Search and filter */
+.search-filter-wrapper {
+  align-items: baseline;
+}
+
+.search-area {
+  margin: 0.6rem 0;
+  text-align: right;
+}
+
+.inline {
+  display: inline;
+}
+
+.center {
+  text-align: center;
+}
+
+.search-input {
+  border: none;
+  width: 55%;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  color: #0e5858;
+}
+
+.filter {
+  display: inline;
+  border: none;
+  background-color: transparent;
+  width: 1.7rem;
+  margin-left: 1.1rem;
+  padding: 0;
+}
+
+i {
+  color: #07b2b2;
+  font-size: 1.56rem;
+}
+
+.search-box {
+  border: 0.063rem solid #0e5858;
+  display: inline;
+  border-radius: 2.1rem;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 0.5rem 0.8rem;
+}
+
+.fa-search {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.fa-filter:hover {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* Filter Modal and filter pill */
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(15 54 54 / 92%);
+  z-index: 1;
+}
+
+.overlay-fav {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(15 54 54 / 92%);
+  z-index: 1;
+}
+
+#filter-modal,
+#filter-modal-fav {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 0.3rem;
+  flex-basis: 100%;
+}
+
+div.options label {
+  display: flex;
+}
+
+.options {
+  margin: 0 0.625rem 0.625rem;
+  justify-content: space-around;
+}
+
+.div-btn-modal {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.cancel {
+  background-color: #b0b0b0;
+  border-radius: 0 0 0 0.3rem;
+}
+
+.apply {
+  background-color: #07b2b2;
+  border-radius: 0 0 0.3rem;
+}
+
+.btn-modal {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 0.3rem 1.25rem;
+}
+
+div.cancel button:focus {
+  outline: none;
+}
+
+div.apply button:focus {
+  outline: none;
+}
+
+.filter-pill {
+  margin-left: 0.625rem;
+}
+
+.filter-pill-button {
+  background-color: salmon;
+  border: none;
+  padding: 0.3rem 0.625rem;
+  border-radius: 0.33rem;
+  color: #0e5858;
+  font-weight: bold;
+}
+
+.fa-x {
+  font-size: 0.75rem;
+  color: #0e5858;
+}
+
+/* Feedback */
+.feedback {
+  background-color: #ddf9fe;
+  padding: 0.3rem;
+}
+
+.feedback-input {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75rem;
+  width: 95%;
+  margin: 0.3rem auto;
+  background-color: #f0f0f0;
+  padding: 0.6rem;
+  border: 0.07rem solid #0e5858;
+}
+
+.feedback-wrapper {
+  display: flex;
+  justify-content: start;
+  background-color: #baf4ff;
+}
+
+.error-message {
+  padding-left: 1rem;
+  color: rgb(184, 10, 10);
+  font-weight: bold;
+}
+
+.reply {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.1rem 0;
+}
+
+.reply-wrapper {
+  background-color: #fdf5e6;
+}
+
+/* Favorite Styles */
+.fa-star {
+  color: rgb(240, 199, 96);
+}
+
+.not-fav {
+  color: gray;
+}
+
+.star-btn {
+  border: none;
+  background-color: white;
+  padding: 0;
+  cursor: pointer;
+}
+
+.fav-activity .title {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+.fa-plus {
+  font-size: 1rem;
+  color: #067575;
+}
+
+.add-fav-btn {
+  background-color: #48bcd1;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+}
+
+.add-fav-btn:hover {
+  background-color: #07b2b2;
+}
+
+.add-fav-btn:active {
+  background-color: #067575;
+}
+
+.in-active {
+  background-color: lightgray;
+  color: darkgray;
+}
+
+.in-active:hover {
+  background-color: lightgray;
+}
